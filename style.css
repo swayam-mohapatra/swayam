@@ -1,0 +1,41 @@
+.navigationBar a{
+    float: left;
+    color: rgb(218, 51, 204);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:none;
+    font-size: 17px;
+}
+.navigationBar a:hover{
+    background-color: rgb(20, 189, 70);
+    color: black;
+}
+.img{
+    float: right;
+    margin-bottom: 30px;
+}
+.img2{
+    float:left;
+    margin-bottom: 30px;
+}
+.navigationBar  ul{
+    list-style-type:none;
+    background-color: black;
+    padding: 0px;
+    margin: 0%;
+    overflow: hidden;
+    position: fixed;
+    height: 48px;
+    width:3000px;
+    
+}
+.navigationBar li{
+    float:left;
+}
+.mar{
+    margin-bottom: 100px;
+}
+.light{
+    float:center;
+}
+    

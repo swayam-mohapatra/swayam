@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact us</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+    <nav class="navigationBar"> 
+        <img src="my logo.jpg" alt="logo" height="50" align="left" >
+
+        <ul>
+            <li><a href="assignment.html">home</a></li>
+            <li> <a href="contactus.html">sports</a></li>
+        </ul>
+    </nav>
+        <p><b> A Warrior never stops until his last breath and his last drop of blood is in his body.</b></p>
+        <h3>
+            <b>FORM:-</b>
+        </h3>
+        <form action="javascript:submitform()" onsubmit="return validate()"> 
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"  placeholder="Enter your name" required><br><br>
+            <label for="Email">Email:</label>
+            <input type="email" id="Email" name="Email"  placeholder="Enter your Email id" required><br><br>
+            <p><i> Enter Your Taste In Game:</i></p>
+            <label for="game">cricket</label>
+            <input type="checkbox"  value="cricket" id="game" name="game" required><br><br>
+            <label for="game">football</label>
+            <input type="checkbox"  value="football" id="game" name="game"><br><br>
+            <label for="game">MMA</label>
+            <input type="checkbox" value="MMA"  id="game" name="game"><br><br>
+            <label for="game">Boxing</label>
+            <input type="checkbox" value="Boxing"  id="game" name="game"><br><br>
+            <input type="submit" name="submit" value="submit">
+        </form>
+        <script>
+            function submitform(){
+                window.alert("form submitted.");
+            }
+        </script>
+        <footer>
+            <pre>
+                <i>END IS ANOTHER FORM OF START.</i>
+            </pre>
+        </footer>
+
+    </body>
+</html>
